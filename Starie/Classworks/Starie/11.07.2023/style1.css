@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.progress_bar {
+    border: 3px solid orange;
+    width: 200px;
+    height: 20px;
+}
+
+.progress_bar_linia {
+    background-color: orange;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    animation: gogo 1s linear infinite;
+}
+@keyframes gogo {
+    0%{
+        margin-left: 0px;
+    }
+    100%{
+        margin-left: 187px;
+    }
+}
+.el{
+    background-color: red;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 220px;
+    animation: rotate 5s linear infinite;
+    border-radius: 10px;
+}
+.el1{
+    background-color: yellow;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 190px;
+    animation: rotate1 5s linear infinite;
+    border-radius: 10px;
+}
+.el2{
+    background-color: blue;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 160px;
+    animation: rotate2 5s linear infinite;
+    border-radius: 10px;
+}
+@keyframes rotate2{
+    0%{ rotate: 0deg;}
+    100%{
+        rotate: 360deg;
+    }
+}
+@keyframes rotate1{
+    0%{ rotate: 0deg;}
+    100%{
+        rotate: 360deg;
+    }
+}
+@keyframes rotate{
+    0%{ rotate: 0deg;}
+    100%{
+        rotate: 360deg;
+    }
+}
+.divvv{
+    text-align: center;
+    font-size: 40px;
+}

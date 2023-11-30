@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: cubic-bezier(.64,.05,.83,.67);
+}
+
+nav {
+    /* display: flex; */
+    user-select: none;
+    gap: 470px;
+    width: 100%;
+}
+
+a {
+    user-select: none;
+    text-decoration: none;
+}
+.div1{
+    width: 30%;
+    height: 30px;
+    color: blueviolet;
+    background-color: crimson;
+    transform: rotate3d(65deg);
+    @media only screen and (max-width: 600px) {
+        width: 20%;
+        height: 40%;
+        color: red;
+        background-color: black;
+        transform: rotate3d(110deg)
+        
+    }
+}
+
+.div2{
+    width: 60%;
+    height: 30%;
+    @media only screen and (max-width: 600px) {
+        width: 30%;
+        height: 60%;
+        
+    }
+}

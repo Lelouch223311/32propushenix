@@ -1,0 +1,24 @@
+.box-shadoww{
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    box-shadow: 50px 1px 2px red;
+    margin-left: 10px;
+}
+.box-textt{
+    text-align: center;
+    width: 10px;
+    height: 20px;
+    text-shadow: 7px 6px 3px red;
+    font-size: 90px;
+}
+hr{
+    width: 150px;
+    margin-left: 10px;
+    box-shadow: 10px 5px 3px crimson;
+}
+body{
+    background-color: gray;
+    text-align: center;
+    margin-left: 40%;
+}

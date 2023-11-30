@@ -1,0 +1,475 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    user-select: none;
+    text-decoration: none;
+    outline: none;
+    height: 1480px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: inline-block;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.nav1 {
+    display: flex;
+    gap: 100px;
+    font-family: Jost;
+    font-style: normal;
+}
+
+.nav1 a {
+    color: black;
+    font-family: Jost;
+    font-style: normal;
+}
+
+.text-nije-nav1 a {
+    color: gray;
+    margin-left: 10px;
+}
+
+.mujskaya_odejda {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 50px;
+    font-family: Jost;
+    font-style: normal;
+    letter-spacing: 5px;
+}
+
+#women {
+    color: gray;
+    font-family: Jost;
+    font-style: normal;
+}
+
+#forhome {
+    color: gray;
+    font-family: Jost;
+    font-style: normal;
+}
+
+#man {
+    color: black;
+    font-family: Jost;
+    font-style: normal;
+}
+
+.moskva_text {
+    display: inline-block;
+    margin-left: 25%;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+.niztext {
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: 10px;
+}
+
+.img_header {
+    display: flex;
+    flex-direction: row;
+    margin-top: -56px;
+    margin-left: 810px;
+}
+
+.img_header1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: -24px;
+    margin-left: 910px;
+}
+
+.chelik {
+    display: flex;
+    flex-direction: row;
+    margin-top: -21px;
+    margin-left: 940px;
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+
+.img_header2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: -25px;
+    margin-left: 942px;
+}
+
+.img_header3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: -25px;
+    margin-left: 1010px;
+}
+
+.img_header4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: -19px;
+    margin-left: 1055px;
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+
+.img_header4_1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: -24px;
+    margin-left: 1060px;
+}
+
+#hr1 {
+    margin-top: 11px;
+}
+
+.brend {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.razmer {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cvet {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img_main {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1660px;
+    margin-top: 1px;
+}
+
+.img_main_text {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.huggoBoss {
+    display: flex;
+    flex-direction: row;
+    margin-left: 136px;
+}
+
+.CafiniiText1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 95px;
+    margin-top: 10px;
+}
+
+.cenaCafinii1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 145px;
+    margin-top: 10px;
+}
+
+.Parajumpers1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 136px;
+}
+
+.cart1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.cart2 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 150px;
+}
+
+.cart3 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 150px;
+}
+
+.cart4 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.cart5 {
+    margin-right: 1px;
+}
+
+.cart6 {
+    margin-right: 130px;
+}
+
+.cart8 {
+    margin-left: 220px;
+}
+
+.cart11 {
+    margin-left: 120px;
+}
+
+.cart12 {
+    margin-left: 220px;
+}
+
+.text1 {
+    margin-left: 50px;
+    margin-top: 100px;
+    color: gray;
+}
+
+.moree {
+    margin-left: 950px;
+    margin-top: -35px;
+    color: black;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #F0F0F0;
+    height: 583px;
+    margin-top: 40px;
+}
+
+.textfooter2 {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    margin-left: 70px;
+    line-height: 154px;
+    font-size: 22px;
+}
+
+.emailvvod {
+    margin-top: -30px;
+    margin-left: 70px;
+}
+
+#emaill {
+    width: 573px;
+    height: 54px;
+    border: none;
+    background-color: #F0F0F0;
+    border-bottom: solid 1px #CDCDCD;
+}
+
+#tsubmit {
+    background-color: black;
+    width: 143px;
+    height: 54px;
+    color: white;
+}
+
+#spann {
+    color: gray;
+    font-size: 25px;
+}
+
+#spann1 {
+    color: gray;
+    font-size: 25px;
+}
+
+#spann2 {
+    color: gray;
+    font-size: 25px;
+}
+
+#spann3 {
+    color: gray;
+    font-size: 25px;
+}
+
+#spann4 {
+    color: gray;
+    font-size: 25px;
+}
+
+#wommen,
+#mmen {
+    font-size: 17px;
+}
+
+.footer1 {
+    margin-left: 67px;
+    margin-top: 30px;
+}
+
+.buyOnline {
+    margin-left: 267px;
+    margin-top: -86px;
+}
+
+.footer2 {
+    margin-left: 87px;
+    margin-top: 30px;
+}
+
+.forBuyers {
+    display: flex;
+    flex-direction: column;
+    margin-left: 550px;
+    margin-top: -115px;
+}
+
+a {
+    color: black;
+}
+
+.uslugiANDservice {
+    display: flex;
+    flex-direction: column;
+    margin-left: 950px;
+    margin-top: -153px;
+}
+
+.univermag {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1300px;
+    margin-top: -169px;
+}
+
+#Copiright {
+    color: gray;
+    margin-left: 290px;
+}
+
+#Politika {
+    color: gray;
+    margin-left: 590px;
+    margin-top: -19px;
+}
+
+#balls {
+    color: gray;
+    margin-left: 1670px;
+}
+
+.ParaJump1Hover {
+    color: red;
+}
+
+.scale {
+    transition: 1s;
+}
+
+.scale:hover {
+    transform: scale(1.2);
+    color: red;
+}
+
+.heart1 {
+    margin-top: -483px;
+    margin-left: 310px;
+}
+
+.heart2 {
+    margin-top: -483px;
+    margin-left: 310px;
+}
+
+.rukaniz {
+    margin-left: 1060px;
+    margin-top: -8px;
+}
+
+
+.dropbtn {
+    font-size: 15px;
+    border: none;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    gap: 1px;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: black;
+    margin-top: 30px;
+}
+
+.dropdown-content a:hover {
+    color: red;
+    -webkit-box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 80) inset;
+    -moz-box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 80) inset;
+    box-shadow: 0px -5px 5px -5px rgb(34, 60, 80) inset;
+    outline: 2px solid #0054FF;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 1610px;
+    height: 450px;
+}
+
+.DropFon {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.diegelFon {
+    height: 380px;
+    width: 900px;
+}
+
+.digeltext {
+    color: white;
+    margin-top: -360px;
+    margin-left: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+.buttonDiegel {
+    display: flex;
+    height: 30px;
+    margin-top: 290px;
+    margin-left: 30px;
+}
+
+.buttonDiegelText {
+    display: flex;
+    margin-top: 5px;
+}

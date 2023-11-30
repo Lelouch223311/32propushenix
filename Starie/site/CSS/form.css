@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    margin-left: 40px;
+    width: 400px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sexCheck {
+    display: flex;
+    gap: 15px;
+}
+
+ul {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+
+}

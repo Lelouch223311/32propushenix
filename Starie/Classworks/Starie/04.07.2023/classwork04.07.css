@@ -1,0 +1,13 @@
+header{
+    display: flex;
+}
+.firstBox_txt0{ 
+    justify-content: center;
+}
+.twoBox{
+    display: flex;
+}
+label{
+    display: flex;
+    flex-direction: column;
+}

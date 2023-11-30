@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(206, 202, 202);
+    user-select: none;
+    animation: ABody3 3.5s infinite 5s linear;
+}
+
+@keyframes ABody{
+    0%{
+        background-color: rgb(245, 83, 83);
+    }
+    30%{
+        background-color: rgb(185, 155, 155);
+    }
+    40%{
+        background-color: rgb(212, 124, 124);
+    }
+    50%{
+        background-color: rgb(238, 98, 98);
+    }
+    60%{
+        background-color: rgb(245, 83, 83);
+    }
+    70%{
+        background-color: rgb(255, 43, 43);
+    }
+    85%{
+        background-color: rgb(245, 83, 83);
+    }
+    90%{
+        background-color: rgb(238, 98, 98);
+    }
+    100%{
+        background-color: rgb(247, 104, 104);
+    }
+}
+---------
+.page {
+    width: 100%;
+    height: 700px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+
+    margin-top: 10px;
+    background: transparent;
+    border: 1px solid #000;
+
+    font-family: 'Montserrat', sans-serif;
+
+    color: #000;
+    font-weight: 900;
+
+    text-transform: uppercase;
+
+    padding: 1rem 3rem;
+}
+
+.button:hover {
+    background: #000;
+    color: #fff;
+}
+
+.button, 
+.button:active, 
+.button:focus {
+    outline: none;
+}
+/*//////
+
+img {
+    display: flex;
+    user-select: none;
+    width: 1920px;
+    height: 1083px;
+}
+@media screen and (max-width: 414px) and (max-height: 896px){
+    img{
+        display: flex;
+        width: 414dvw;
+        height: 210dvh;
+    }
+    
+}
+/* 
+video{
+    display: flex;
+    width: 1410px;
+    height: 650px;
+    margin-left: -127px;
+} */

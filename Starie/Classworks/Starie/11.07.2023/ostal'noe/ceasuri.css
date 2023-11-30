@@ -1,0 +1,60 @@
+.ceas{
+    background-color: rgba(0, 0, 0, 0.66);
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    margin-left: 210px;
+    border-radius: 180px;
+    transform-origin: center;
+    animation: rotate 60s linear infinite;
+}
+.ceas22{
+    transform-origin: center;
+    animation: rotate1 3600s linear infinite;
+    font-size: 50px;
+}
+body{
+    background-color: crimson;
+}
+.ceas_1{
+    /* animation: rotate 60s linear infinite; */
+    /* background-image: url(cloud.png); */
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    /* transform-origin: center;
+    animation: rotate 10s linear infinite;
+    height: 20px; */   
+    /* transition: all 0.3s linear; */
+}
+
+.ceas_2{
+    text-align: center;
+    color: white;
+    /* animation: rotate1 3600s linear infinite; */
+}
+
+@keyframes rotate{ /* Минутная Стрелка */
+    0%{
+        rotate: 15deg;
+     }
+
+   /* 50%{
+        rotate: 45deg;
+    }
+    70%{
+        rotate: 55deg;
+    } */
+    100%{
+        rotate: 360deg;
+    }
+}
+
+@keyframes rotate1{ /* Часовая Стрелка */
+    0%{
+        rotate: 20deg;
+     }
+    100%{
+        rotate: 360deg;
+    }
+}

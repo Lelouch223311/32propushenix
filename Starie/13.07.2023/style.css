@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fig {
+    margin-left: 740px;
+    margin-top: -905px;
+}
+
+body {
+    background-color: black;
+}
+
+.chel {
+    animation: chel 1s infinite alternate;
+}
+
+@keyframes chel {
+    0% {
+        margin-left: 0px;
+    }
+
+    50% {
+        margin-left: 250px;
+        margin-bottom: 110px;
+    }
+
+    100% {
+        margin-left: 1100px;
+    }
+}
+
+.chel1 {
+    animation: chel1 1s infinite alternate;
+}
+
+@keyframes chel1 {
+    0% {
+        margin-left: 0px;
+    }
+
+    50% {
+        margin-left: 250px;
+        margin-bottom: 110px;
+    }
+
+    100% {
+        margin-left: 1100px;
+    }
+}
+
+.chel2 {
+    animation: chel2 1s infinite alternate;
+}
+
+@keyframes chel2 {
+    0% {
+        margin-left: 0px;
+    }
+
+    50% {
+        margin-left: 250px;
+        margin-bottom: -110px;
+    }
+
+    100% {
+        margin-left: 1100px;
+    }
+}
+.cont{
+    background-color: white;
+}

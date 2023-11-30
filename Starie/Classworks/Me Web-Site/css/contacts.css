@@ -1,0 +1,25 @@
+#red-man {
+    list-style-image: url("/Me Web-Site/img/red-man-40x40.png");
+}
+
+#green-man {
+    list-style-image: url("/Me Web-Site/img/green-man-40x40.png");
+}
+
+button {
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+}
+.button1{
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    list-style-type: none;
+    color: white;
+}
+button:hover {
+    background-color: lime;
+    color: white;
+    text-decoration: none;
+}

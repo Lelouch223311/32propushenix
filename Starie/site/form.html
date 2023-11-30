@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/form.css">
+</head>
+
+<body>
+    <h2>Первая форма</h2>
+    <form action="#" method="GET">
+
+        <!-- <label for="name">Имя:</label> -->
+        <input type="text" id="name" placeholder="Введи имя">
+
+        <label>
+            <span>Email:</span>
+            <input type="email" id="Iemail" name="email">
+        </label>
+
+        <label>
+            <span>Password:</span>
+            <input type="password" id="Ipass" name="pass">
+        </label>
+
+        <label for="tel">
+            <span>Telephone:</span>
+            <input type="tel" id="tel" name="tel">
+        </label>
+
+
+        <label for="news">
+            <span>Sunscribe?:</span>
+            <input type="checkbox" id="news" name="newsCheck">
+        </label>
+
+        <label>
+            <span>Выпадающее</span>
+            <select name="dropMenu" id="dropMenu">
+                <option selected value="1">Первый</option>
+                <option value="2">Второй</option>
+                <option value="3">Третий</option>
+
+            </select>
+        </label>
+
+
+
+        <p>Gender:</p>
+        <div class="sexCheck">
+            <label for="gender1">Male</label>
+            <input type="radio" value="Male" id="gender1" name="sex">
+            <label for="gender1">Female</label>
+            <input type="radio" value="Female" id="gender2" name="sex">
+            <label for="gender1">Other</label>
+            <input type="radio" value="Other" id="gender3" name="sex">
+        </div>
+        <fieldset>
+            <legend>Select size:</legend>
+            <ul>
+                <li>
+                    <label>
+                        <span>Small</span>
+                        <input type="radio" id="small" name="size" value="small">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <span>Medium</span>
+                        <input checked type="radio" id="medium" name="size" value="medium">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <span>Large</span>
+                        <input type="radio" id="Large" name="size" value="Large">
+                    </label>
+                </li>
+            </ul>
+        </fieldset>
+
+        <label>
+            <span>Blog:</span>
+            <input type="url" id="url" name="Iurl">
+        </label>
+
+        <label>
+            <span>Date:</span>
+            <input type="date" name="date" id="Idate">
+        </label>
+
+        <label>
+            <span>Genre:</span>
+            <input type="text" name="genre" id="userGenre" list="genreSuggestions">
+            <datalist id="genreSuggestions">
+                <option>Comedy</option>
+                <option>Horror</option>
+                <option>Drama</option>
+                <option>Thriller</option>
+                <option>Science Fiction</option>
+                <option>Fantasy</option>
+            </datalist>
+        </label>
+
+        <label>
+            <span>Счетчик</span>
+            <input type="number" name="number" id="Inumber" min="1" max="12" step="1">
+        </label>
+
+        <label for="color"></label>
+        <input type="color" id="color" name="color">
+
+        <label for="file">
+            <input type="file" id="file" name="file">
+        </label>
+
+        <!-- <label for="img">Image</label>
+            <input type="image" id="img" src="./IMG/image 1.png"> -->
+
+        <label for="rang">
+            <input type="range" id="rang" min="0" max="100" value="30" step="10">
+        </label>
+
+        <label for="search">Поиск</label>
+        <input type="search" id="site-search">
+
+
+        <label for="text">Текст:</label>
+        <textarea name="text" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="Отправить">
+        <input type="reset" value="Очистить">
+    </form>
+</body>
+
+</html>

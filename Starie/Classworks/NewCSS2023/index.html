@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NewCSS2023</title>
+</head>
+<body>
+    <div class="checkTheme">
+        <h3>Change Theme</h3>
+        <input type="checkbox" id="switch" onchange="changeTheme(this.checked)"/>
+        <label for="switch"></label>
+      </div>
+    <main>
+        <div class="card resize">
+            <h2>Resize</h2>
+            <p>Изминение размера блока на странице растягиванием</p>
+            <p id="pull"> pull ---> </p>
+        </div>
+        <div class="scroll">
+            <div class="card">
+                <h2>Scrool</h2>
+                <p>Скрол с позиционированием блока по центру</p>
+            </div>
+            <div class="card">
+                <h2>Scrool</h2>
+                <p>Скрол с позиционированием блока по центру</p>
+            </div>
+            <div class="card">
+                <h2>Scrool</h2>
+                <p>Скрол с позиционированием блока по центру</p>
+            </div>
+            <div class="card">
+                <h2>Scrool</h2>
+                <p>Скрол с позиционированием блока по центру</p>
+            </div>
+            <div class="card">
+                <h2>Scrool</h2>
+                <p>Скрол с позиционированием блока по центру</p>
+            </div>
+            <div class="card">
+                <h2>Scrool</h2>
+                <p>Скрол с позиционированием блока по центру</p>
+            </div>
+        </div>
+    </main>
+    <script>
+        function changeTheme(isChecked) {
+          if (isChecked) {
+            document.body.setAttribute('dark', '');
+          } else {
+            document.body.removeAttribute('dark');
+          }
+        }
+    </script>          
+</body>
+</html>

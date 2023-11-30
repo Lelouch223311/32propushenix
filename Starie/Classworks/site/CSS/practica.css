@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    width: 100vw;
+    height: 55px;
+    background-color: #FFFAEF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.one-head {
+    margin-left: 26px;
+    display: flex;
+    gap: 42px;
+
+
+}
+
+.two-head {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+   color: #00C08B;
+    text-align: center;
+    justify-content: center;
+}
+
+.tre-head {
+    margin-right: 26px;
+    display: flex;
+    gap: 42px;
+
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    user-select: none;
+    color: #006450;
+
+}
+.conteiner{
+    background-image: url(/IMG/fon-rectangle.png);
+    width: 1920px;
+    height: 822px;
+}
+h2{
+    
+}

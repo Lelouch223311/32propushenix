@@ -1,0 +1,94 @@
+body {
+    background-color: darkblue;
+}
+
+header {
+    color: red;
+}
+
+main {
+    color: white;
+}
+
+.mikrochel {
+    animation: chel 1.0s infinite alternate;
+    color: crimson;
+    background-color: aqua;
+}
+
+.hehe{
+    color: rgba(255, 255, 255, 0.122);
+}
+@keyframes chel {
+    0% {
+        margin-left: 0px;
+    }
+
+    50% {
+        margin-right: 10px;
+        color: lime;
+        background-color: red;
+    }
+
+    100% {
+        margin-left: 40px;
+        color: darkviolet;
+        background-color: white;
+    }
+}
+.chel {
+    animation: chel 1s infinite alternate;
+}
+
+@keyframes chel {
+    0% {
+        margin-left: 0px;
+    }
+
+    50% {
+        margin-left: 250px;
+        margin-bottom: 110px;
+    }
+
+    100% {
+        margin-left: 900px;
+    }
+}
+
+.chel1 {
+    animation: chel1 1s infinite alternate;
+}
+
+@keyframes chel1 {
+    0% {
+        margin-left: 0px;
+    }
+
+    50% {
+        margin-left: 250px;
+        margin-bottom: 110px;
+    }
+
+    100% {
+        margin-left: 900px;
+    }
+}
+
+.chel2 {
+    animation: chel2 1s infinite alternate;
+}
+
+@keyframes chel2 {
+    0% {
+        margin-left: 0px;
+    }
+
+    50% {
+        margin-left: 250px;
+        margin-bottom: -110px;
+    }
+
+    100% {
+        margin-left: 900px;
+    }
+}

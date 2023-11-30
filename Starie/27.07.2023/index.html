@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+</head>
+<style>
+    body {
+        user-select: none;
+        text-decoration: none;
+        outline: none;
+    }
+</style>
+
+<body>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb bg-light">
+            <li class="breadcrumb-item">
+                <a href="">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="">Category 1</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+                Product 5
+            </li>
+        </ol>
+    </nav>
+
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+
+    <button type="button" class="btn btn-link">Link</button>
+
+
+    <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Загрузка...</span>
+    </div>
+    <div class="spinner-border text-secondary" role="status">
+        <span class="visually-hidden">Загрузка...</span>
+    </div>
+    <div class="spinner-border text-success" role="status">
+        <span class="visually-hidden">Загрузка...</span>
+    </div>
+    <div class="spinner-border text-danger" role="status">
+        <span class="visually-hidden">Загрузка...</span>
+    </div>
+    <div class="spinner-border text-warning" role="status">
+        <span class="visually-hidden">Загрузка...</span>
+    </div>
+    <div class="spinner-border text-info" role="status">
+        <span class="visually-hidden">Загрузка...</span>
+    </div>
+    <div class="spinner-border text-light" role="status">
+        <span class="visually-hidden">Загрузка...</span>
+    </div>
+    <div class="spinner-border text-dark" role="status">
+        <span class="visually-hidden">Загрузка...</span>
+    </div>
+
+
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            <img src="..." class="rounded me-2" alt="...">
+            <strong class="me-auto">Bootstrap</strong>
+            <small>11 мин. назад</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Закрыть"></button>
+        </div>
+        <div class="toast-body">
+            Привет мир! Это тост-сообщение.
+        </div>
+    </div>
+
+
+    <h1>Hello, world!</h1>
+    <div class="bg-dark text-white">
+        bg-dark text-white
+    </div>
+    <div class="bg-light text-dark">
+        bg-light text-dark
+    </div>
+    <div class="bg-info text-light">
+        bg-info text-light
+    </div>
+    <div class="bg-success text-white">
+        Успешно !
+    </div>
+    <div class="bg-danger text-bg-info">
+        text-bg-info + bg-danger
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class=" col-8 col-md-1 col bg-dark text-white">
+                col bg-dark text-white
+            </div>
+            <div class="col bg-primary text-white">
+                col bg-primary text-white
+            </div>
+            <div class="w-100"></div>
+            <div class="col bg-success text-white">
+                col bg-success text-white
+            </div>
+            <div class="col bg-warning text-white">
+                col bg-warning text-white
+            </div>
+            <div class="col bg-info text-white">
+                col bg-info text-white
+            </div>
+        </div>
+        <div class="row mt-5 row row-cols-2 row-cols-sm-3 row-cols-lg-5">
+            <div
+                class=" col m-2 pl-5 col-md-1 col order-last bg-dark text-white border border-danger rounded-pill shadow-lg">
+                col bg-dark text-white col-md-1 order-last
+            </div>
+            <div class="col bg-primary text-white">
+                col bg-primary text-white
+            </div>
+            <div class="w-100"></div>
+            <div class="col bg-success text-white">
+                col bg-success text-white
+            </div>
+            <div class="col bg-warning text-white">
+                col bg-warning text-white
+            </div>
+            <div class="col offset-md-2 bg-info text-white">
+                col bg-info text-white offset-md-2
+            </div>
+            <div class="col d-none offset-md-2 bg-danger text-white">
+                col bg-danger text-white offset-md-2
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Заголовок карточки</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Подзаголовок карточки</h6>
+                        <p class="card-text">Небольшой пример текста, который должен основываться на названии карты и
+                            составлять основную часть содержимого карты.</p>
+                        <a href="#" class="card-link">Ссылка карточки</a>
+                        <a href="#" class="card-link">Другая ссылка</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Заголовок карточки</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Подзаголовок карточки</h6>
+                        <p class="card-text">Небольшой пример текста, который должен основываться на названии карты и
+                            составлять основную часть содержимого карты.</p>
+                        <a href="#" class="card-link">Ссылка карточки</a>
+                        <a href="#" class="card-link">Другая ссылка</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Заголовок карточки</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Подзаголовок карточки</h6>
+                        <p class="card-text">Небольшой пример текста, который должен основываться на названии карты и
+                            составлять основную часть содержимого карты.</p>
+                        <a href="#" class="card-link">Ссылка карточки</a>
+                        <a href="#" class="card-link">Другая ссылка</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Заголовок карточки</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Подзаголовок карточки</h6>
+                        <p class="card-text">Небольшой пример текста, который должен основываться на названии карты и
+                            составлять основную часть содержимого карты.</p>
+                        <a href="#" class="card-link">Ссылка карточки</a>
+                        <a href="#" class="card-link">Другая ссылка</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Заголовок карточки</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Подзаголовок карточки</h6>
+                        <p class="card-text">Небольшой пример текста, который должен основываться на названии карты и
+                            составлять основную часть содержимого карты.</p>
+                        <a href="#" class="card-link">Ссылка карточки</a>
+                        <a href="#" class="card-link">Другая ссылка</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Заголовок карточки</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Подзаголовок карточки</h6>
+                        <p class="card-text">Небольшой пример текста, который должен основываться на названии карты и
+                            составлять основную часть содержимого карты.</p>
+                        <a href="#" class="card-link">Ссылка карточки</a>
+                        <a href="#" class="card-link">Другая ссылка</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExample" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../Me Web-Site/img/chel.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../Me Web-Site/img/green-man-40x40.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../Me Web-Site/img/red-man-40x40.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+        </button>
+    </div>
+
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">Имя</label>
+            <input type="text" class="form-control" id="validationCustom01" value="Иван" required>
+            <div class="valid-feedback">
+                Все хорошо!
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Фамилия</label>
+            <input type="text" class="form-control" id="validationCustom02" value="Петров" required>
+            <div class="valid-feedback">
+                Все хорошо!
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label for="validationCustomUsername" class="form-label">Имя пользователя</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="validationCustomUsername"
+                    aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                    Пожалуйста, выберите имя пользователя.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">Город</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+                Укажите действующий город.
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">Область</label>
+            <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Выберите...</option>
+                <option>...</option>
+            </select>
+            <div class="invalid-feedback">
+                Пожалуйста, выберите корректный город.
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Индекс</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+                Пожалуйста, предоставьте действующий почтовый индекс.
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                    Примите условия и соглашения
+                </label>
+                <div class="invalid-feedback">
+                    Вы должны принять перед отправкой.
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">Отправить форму</button>
+        </div>
+    </form>
+
+
+
+
+    <div class="accordion mt-5 mb-3" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Элемент аккордеона #1
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Это тело аккордеона первого элемента.</strong> Оно отображается по умолчанию, пока плагин
+                    свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого
+                    элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью
+                    переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши
+                    переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в
+                    <code>.accordion-body</code>, хотя переход ограничивает переполнение.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Элемент аккордеона #2
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Это тело аккордеона второго элемента.</strong> По умолчанию он скрыт, пока плагин
+                    свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого
+                    элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью
+                    переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши
+                    переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в
+                    <code>.accordion-body</code>, хотя переход ограничивает переполнение.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Элемент аккордеона #3
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Это тело аккордеона третьего элемента.</strong> По умолчанию оно скрыто, пока плагин
+                    свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого
+                    элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью
+                    переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши
+                    переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в
+                    <code>.accordion-body</code>, хотя переход ограничивает переполнение.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

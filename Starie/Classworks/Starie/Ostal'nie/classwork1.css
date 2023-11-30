@@ -1,0 +1,44 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+} */
+#hr0{
+    width: 760px;
+    size: 760px;
+    margin: 0%;
+    padding: 0%;
+}
+/* ol{
+    list-style-type: decimal;
+} */
+#ul1{
+    list-style-image:  url("favicon-32x32.png"); 
+}
+p:before{
+    color: aqua;
+    content: "Start ☛ ";
+}
+p:after{
+    color: red;
+    content: ' ☚ End';
+}
+p::before,p::after{
+    background-color: black;
+}
+.button-test{
+    /* appearance: none; */
+    /* border: none; */
+    border-radius: 50px;
+    /* background: none; */
+    cursor: pointer;
+    /* padding: 30px 30px; */
+}
+main{
+    width: 80vw;
+    height: calc(100vh-100);
+}
+footer{
+    width: 100vw;
+    height: 100vw;
+
+}

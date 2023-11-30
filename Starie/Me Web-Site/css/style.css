@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: -290px;
+}
+.hamster{
+    width: 100%;
+    height: 790px;
+    position: fixed;
+}
+.tex_rab {
+    color: crimson;
+    margin-top: 210px;
+}
+
+.header {
+    position: relative;
+    z-index: 0px;
+    height: 40px;
+}
+figure {
+    margin-top: 10px;
+}
+
+body {
+    background-image: url(../img/fonn.png);
+    /* background-color: #9a73ff;  */ 
+    /* Up for Tex Raboti. */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    width: 100%;
+    height: 770px;
+}
+
+nav {
+    position: relative;
+    top: -460px;
+    left: 20px;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: white;
+}

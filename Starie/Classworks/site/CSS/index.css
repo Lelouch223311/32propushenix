@@ -1,0 +1,60 @@
+#anim1 {
+    background-color: black;
+    width: 30vw;
+    color: #fff;
+    animation: myAnim 5s linear 1s alternate infinite;
+
+}
+@keyframes myAnim{
+    0%{
+        margin-left: 0px;       
+    }
+    30%{
+        background-color: blue;
+    }
+
+    100%{
+        margin-left:  500px;
+    }
+}
+.loader-container{
+    margin-top: 100px;
+    background-color: #948484;
+    width: 400px;
+    height: 400px;
+}
+.loader{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 50%;
+    margin: auto;
+    animation:  loader 1s ease infinite;
+
+}
+@keyframes loader{
+    0%, 100% {
+        box-shadow: -10px 15px 0 #ffffff,
+        10px 15px 0 rgba(255, 255, 255, 0.2),
+        10px 36px 0 rgba(255, 255, 255, 0.2),
+        -10px 36px 0 rgba(255, 255, 255, 0.2);
+    }
+    25%{
+        box-shadow: -10px 15px 0 rgba(255, 255, 255, 0.2),
+        10px 15px 0 #ffffff,
+        10px 36px 0 rgba(255, 255, 255, 0.2),
+        -10px 36px 0 rgba(255, 255, 255, 0.2);
+    }
+    50%{
+        box-shadow: -10px 15px 0 rgba(255, 255, 255, 0.2),
+        10px 15px 0 rgba(255, 255, 255, 0.2),
+        10px 15px 0 #ffffff,
+        -10px 36px 0 rgba(255, 255, 255, 0.2);
+    }
+    75%{
+        box-shadow:  -10px 15px 0 rgba(255, 255, 255, 0.2),
+        10px 15px 0 rgba(255, 255, 255, 0.2),
+        10px 36px 0 rgba(255, 255, 255, 0.2),
+        -10px 36px 0 #ffffff;
+    }
+}

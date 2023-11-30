@@ -1,0 +1,115 @@
+HTML:
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/20.07.2023/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="one-head">
+            <a href="">Shop All</a>
+            <a href="">Save on Sets</a>
+            <a href="">Plastic Offsets</a>
+        </div>
+        <div class="two-head">
+            <h1>
+                by
+            </h1>
+        </div>
+        <div class="tre-head">
+            <a href="">Free shipping,always.</a>
+            <a href="">Account</a>
+            <a href="">Cart</a>
+        </div>
+    </header>
+    <main>
+        <div class="fon">
+            <!-- <img src="/20.07.2023/img/fon-rectangle.png"> -->
+            <!-- <div class="text">
+                <h2>Our best-selling refillable deodorant, in a new scent for summer.<br>
+                    Shop Lemongrass</h2>
+                
+            </div>
+            <button class="button0">Shop Now</button> -->
+
+        </div>
+        <div class="text">
+            <h2>Our best-selling refillable deodorant, in a new scent for summer.<br>
+                Shop Lemongrass</h2>
+                <div class="button0">
+                    <button class="0">Shop now</button>
+                </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
+<!--------------- CSS NEXT ---------------------------------------------------------------------------->
+CSS:
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    user-select: none;
+    color: green;
+}
+
+header {
+    width: 100vw;
+    height: 55px;
+    background-color: #FFFAEF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.one-head {
+    margin-left: 26px;
+    display: flex;
+    gap: 42px;
+}
+
+.two-head {
+
+    justify-content: center;
+}
+
+.tre-head {
+    margin-right: 26px;
+    display: flex;
+    gap: 42px;
+}
+
+.text {
+    margin-top: -760px;
+    margin-left: 160px;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+}
+
+.button0 {
+    width: 201px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.fon {
+    width: 1920px;
+    height: 822px;
+    background-image: url(/20.07.2023/img/fon-rectangle.png);
+}

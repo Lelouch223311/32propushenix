@@ -1,0 +1,37 @@
+#button0{
+    background-color: crimson;
+    margin-left: 45%;
+    margin-top: 15%;
+    /* width: 200px; */
+}
+#button0:hover{
+    background-color: lime;
+    width: 100px;
+    transition: all 0.5s cubic-bezier(.06,.23,.81,-0.16);
+}
+
+#button0:active{
+    background-color: blueviolet;
+    width: 100px;
+    color: white;
+    transition: none;
+}
+body{
+    background-color: gray;
+}
+/* .element{
+    background-color: crimson;
+    width: 80px;
+    height: 25px;
+    transition: all 0.5s linear;
+} */
+.element{
+    background-color: crimson;
+    width: 80px;
+    height: 25px;
+    transition: all 1s cubic-bezier(.06,.23,.81,-0.16);
+}
+.element:hover{
+    background-color: lime;
+    height: 55px;
+}

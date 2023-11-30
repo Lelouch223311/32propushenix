@@ -1,0 +1,38 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button {
+    background-color: lime;
+    color: red;
+    list-style-type: none;
+    text-decoration: none;
+    border-radius: 10px;
+    position: fixed;
+}
+.pree{
+    font-size: 30px;
+    position: fixed;
+    color: lightblue;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+button:hover {
+    background-color: blueviolet;
+    list-style-type: none;
+    text-decoration: none;
+    border-radius: 10px;
+    position: fixed;
+}
+.cont{
+    text-align: center;
+    margin-top: -450px;
+}
+.head_fon{
+    background-size: cover;
+}

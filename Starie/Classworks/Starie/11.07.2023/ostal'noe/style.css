@@ -1,0 +1,121 @@
+.boxs-1 {
+    background-color: black;
+}
+
+.boxs-2 {
+    background-color: red;
+}
+
+.boxs-3 {
+    background-color: lime;
+}
+
+@keyframes cloud{ 
+    0% {
+    background-position-x: 0px;
+    background-color: skyblue;
+    }
+    50%{ background-color: skyblue;
+    }
+    100%{
+        background-position-x: 500px;
+        /* background-color: rgba(255, 49, 169, 0.616); */
+    }
+}
+/* 
+body {
+    background-color: #b6cbe8;
+    background-image: url('cloud.png');
+    animation: cloud 10s linear infinite;
+} */
+body {
+    margin: 0;
+    background-color: #b6cbe8;
+    background-image: url('cloud.png');
+    animation: cloud 10s linear infinite;
+}
+
+.loader-container {
+    width: 280px;
+    height: 240px;
+    background-color: black;
+}
+
+.loader {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 40%;
+    left: -8px;
+    margin: auto;
+    animation: loader 1s ease infinite;
+}
+
+@keyframes loader {
+
+    0%,
+    100% {
+        box-shadow: -10px 15px 0 #ffffff, 10px 15px 0 rgba(255, 255, 255, 0.2), 10px 36px 0 rgba(255, 255, 255, 0.2), -10px 36px 0 rgba(255, 255, 255, 0.2);
+    }
+
+    25% {
+        box-shadow: -10px 15px 0 rgba(255, 255, 255, 0.2), 10px 15px 0 #ffffff, 10px 36px 0 rgba(255, 255, 255, 0.2), -10px 36px 0 rgba(255, 255, 255, 0.2);
+    }
+
+    50% {
+        box-shadow: -10px 15px 0 rgba(255, 255, 255, 0.2), 10px 15px 0 rgba(255, 255, 255, 0.2), 10px 36px 0 #ffffff, -10px 36px 0 rgba(255, 255, 255, 0.2);
+    }
+
+    75% {
+        box-shadow: -10px 15px 0 rgba(255, 255, 255, 0.2), 10px 15px 0 rgba(255, 255, 255, 0.2), 10px 36px 0 rgba(255, 255, 255, 0.2), -10px 36px 0 #ffffff;
+    }
+}
+
+@keyframes myAnim {
+    0% {
+        margin-left: 0px;
+    }
+
+    30% {
+        background-color: blue;
+    }
+
+    31% {
+        background-color: lime;
+    }
+
+    60% {
+        background-color: crimson;
+        color: black;
+    }
+
+    90% {
+        background-color: aqua;
+        color: black;
+    }
+
+    100% {
+        margin-left: 1200px;
+    }
+
+}
+
+h1 {
+    animation: myAnim 5s linear 1s alternate infinite;
+}
+
+/* libo:
+@keyframes myAnim{
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 500px;
+    }
+} */
+.anim1 {
+    background-color: #d4c4ff;
+    width: 30vw;
+    color: #fff;
+    animation: myAnim 5s linear alternate infinite;
+}

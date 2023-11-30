@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* input{
+    border-radius: 6px;
+} */
+form {
+
+    height: max-content;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#name {
+    /* ФИО */
+    border-radius: 5px;
+    background-color: crimson;
+    color: white;
+}
+
+#text {
+    /* textarea */
+    background-color: lime;
+    color: red;
+    font-style: oblique;
+    border-radius: 5px;
+}
+
+label {
+    user-select: none;
+}
+
+ul {
+    list-style: none;
+    margin-left: 110px;
+    margin-bottom: 10px;
+}
+
+legend {
+    margin-left: 10px;
+}
+
+input:valid {
+    border-color: greenyellow;
+    width: 80px;
+}
+/* input:valid::after {
+    border-color: red;
+    width: 120px;
+    content: "\2714";
+} */
+input:valid::after{
+    content: "\2714";
+    display: inline-block;
+    color: green;
+}
+input:invalid{
+    border-color: crimson;
+    width: 80px;
+}
+input:invalid::after{
+    content: "\2714";
+    display: inline-block;
+    color: red;
+}
+/* #InputUnvalid:valid::after {
+    content: "\2714";
+    display: inline-block;
+    color: green;
+} */
